@@ -1,54 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WaterFallActivity">
+    android:orientation="vertical">
 
     <com.example.study1.WaterFallLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="wrap_content">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:width="47dp"
-            android:height="30dp"
-            android:background="#ff0000"
-            android:text="测试"
-            android:textColor="@android:color/black" />
+            style="@style/text_flag_01"
+            android:text="hello" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:width="47dp"
-            android:height="30dp"
-            android:text="测试1" />
+            style="@style/text_flag_01"
+            android:text="hello,hi" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:width="47dp"
-            android:height="30dp"
-            android:text="测试2" />
+            style="@style/text_flag_01"
+            android:text="你是我的"
+            android:textSize="18sp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:width="70dp"
-            android:height="30dp"
-            android:text="测试3" />
+            style="@style/text_flag_01"
+            android:text="hello,man" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:width="60dp"
-            android:height="30dp"
-            android:text="测试3" />
+            style="@style/text_flag_01"
+            android:text="helloview" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="view" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="我是你的"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="he" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="textview" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="view" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello,view" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello,mt" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hel" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hel" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hel2" />
+
     </com.example.study1.WaterFallLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

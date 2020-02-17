@@ -36,7 +36,8 @@ public class WaterFallLayout extends ViewGroup {
 
     @Override
     public LayoutParams generateLayoutParams(AttributeSet attrs) {
-        return super.generateLayoutParams(attrs);
+//        return super.generateLayoutParams(attrs);
+        return  new MarginLayoutParams(getContext(),attrs);
     }
 
     @Override
@@ -144,7 +145,7 @@ public class WaterFallLayout extends ViewGroup {
                 top = curTop + layoutParams.topMargin;
 
                 right = left + childView.getMeasuredWidth();
-                bottom = top = childView.getMeasuredHeight();
+                bottom = top + childView.getMeasuredHeight();
 
                 childView.layout(left, top, right, bottom);
 
